@@ -4,16 +4,20 @@ using System.Collections;
 public class DropZone : MonoBehaviour
 {
 	public  string droppedId;
+	string thisId;
 	public GameObject droppedItemPrefab;
-	public GameObject wrong_answer;
+
 	public Color color1;
-	GameObject MGR;
+	GameObject mMGR;
 	int Effect = 0;
 	int Sound = 1;
 
 	void Start ()
 	{
-		MGR = GameObject.Find ("MGR");
+		mMGR = GameObject.Find ("MGR");
+		string str = this.transform.name;
+		string[] result = str.Split ('_');
+		thisId = result [1];
 	}
 
 	public void OnDrop (GameObject dropped)
@@ -23,7 +27,11 @@ public class DropZone : MonoBehaviour
 
 
 
-		if (this.transform.name == dropped.transform.name) {
+		if (thisId == dropped.transform.name) {
+			MGR.quests--;
+			if (MGR.quests == 0)
+				mMGR.GetComponent<MGR> ().result (true);
+
 			droppedId = dropped.transform.name;
 
 			GameObject newPower = NGUITools.AddChild (this.gameObject,
@@ -33,10 +41,11 @@ public class DropZone : MonoBehaviour
 			newPower.GetComponent<BoxCollider> ().enabled = false;
 			newPower.GetComponent<UISprite> ().color = color1;
 			//MGR.GetComponent<MGR> ().Ins (Sound, 0, new Vector3 (0, 0, 0));
-			MGR.GetComponent<MGR> ().Ins (Effect, 0, newPower.transform.position);
+			mMGR.GetComponent<MGR> ().Ins (Effect, 0, newPower.transform.position);
 			Destroy (dropped);
 		} else {
-			wrong_answer.SetActive (true);
+			mMGR.GetComponent<MGR> ().result (false);
+			
 			iTween.PunchPosition (dropped, new Vector3 (0.2f, 0.2f, 0), 1f);
 
 		}

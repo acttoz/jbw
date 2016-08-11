@@ -3,7 +3,8 @@ using System.Collections;
 
 public class MGR : MonoBehaviour
 {
-
+	public static int quests;
+	public int setQuest;
 	public string[] texts;
 	public static string[] tempTexsts;
 	public float scale;
@@ -21,9 +22,13 @@ public class MGR : MonoBehaviour
 	int Effect = 0;
 	int Sound = 1;
 
+	public GameObject wrong_answer;
+	public GameObject right_answer;
+
 	// Use this for initialization
 	void Start ()
 	{ 
+		quests = setQuest;
 		tempTexsts = texts;
 		tempScale = new Vector3 (scale, scale, scale);
 		block_no = 0;
@@ -61,9 +66,17 @@ public class MGR : MonoBehaviour
 	public void Ins (int what, int index, Vector3 position)
 	{
 
-		if (what == 0)
+		if (what == Effect)
 			Instantiate (effects [index], position, Quaternion.identity);
 		if (what == 1)
 			Instantiate (sounds [index], position, Quaternion.identity);
+	}
+
+	public void result (bool isRight)
+	{
+		if (isRight)
+			right_answer.SetActive (true);
+		else
+			wrong_answer.SetActive (true);
 	}
 }
