@@ -25,8 +25,6 @@ public class DropZone : MonoBehaviour
 		if (dropped.transform.tag != "block")
 			return;
 
-
-
 		if (thisId == dropped.transform.name) {
 			MGR.quests--;
 			if (MGR.quests == 0)
@@ -45,13 +43,8 @@ public class DropZone : MonoBehaviour
 			Destroy (dropped);
 		} else {
 			mMGR.GetComponent<MGR> ().result (false);
-			
 			iTween.PunchPosition (dropped, new Vector3 (0.2f, 0.2f, 0), 1f);
-
 		}
-
-
 		// 드롭된 게임오브젝트는 삭제한다.
-
 	}
 }

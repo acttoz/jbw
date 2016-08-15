@@ -8,8 +8,6 @@ public class Item : MonoBehaviour
 	void Start ()
 	{
 		bars = GameObject.Find ("bars");
-
-		 
 	}
 	
 	// Update is called once per frame
