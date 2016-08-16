@@ -7,8 +7,6 @@ public class MGR : MonoBehaviour
 	public GameObject robot;
 	public GameObject success_cut;
 	public int setQuest;
-	public string[] texts;
-	public static string[] tempTexsts;
 	public float scale;
 	public static Vector3 tempScale;
 	public GameObject[] blocks;
@@ -37,10 +35,10 @@ public class MGR : MonoBehaviour
 	void Start ()
 	{ 
 		quests = setQuest;
-		tempTexsts = texts;
+
 		tempScale = new Vector3 (scale, scale, scale);
 		block_no = 0;
-		controlPanel (1);
+		controlPanel (2);
 	
 	}
 	
@@ -84,7 +82,6 @@ public class MGR : MonoBehaviour
 	public void result (bool isRight)
 	{
 		if (isRight) {
-			robot.GetComponent<Animation> ().Play ();
 			success_cut.SetActive (true);
 		} else
 			wrong_answer.SetActive (true);
@@ -98,7 +95,6 @@ public class MGR : MonoBehaviour
 
 	public void controlPanel (int no)
 	{
-		Panel_select.SetActive (false);
 		Panel_quest1.SetActive (false);
 		Panel_quest2.SetActive (false);
 		Panel_algori1.SetActive (false);
@@ -106,7 +102,6 @@ public class MGR : MonoBehaviour
 
 		switch (no) {
 		case 1:
-			Panel_select.SetActive (true);
 			break;
 		case 2:
 			Panel_quest1.SetActive (true);

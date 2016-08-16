@@ -3,7 +3,8 @@ using System.Collections;
 
 public class Robot : MonoBehaviour
 {
-	public GameObject MGR;
+	public GameObject sound;
+	public GameObject summary;
 	// Use this for initialization
 	void Start ()
 	{
@@ -18,6 +19,7 @@ public class Robot : MonoBehaviour
 
 	void afterClip ()
 	{
-		MGR.GetComponent<MGR> ().afterRobot ();
+		summary.SetActive (true);
+		sound.GetComponent<AudioSource> ().Pause ();
 	}
 }

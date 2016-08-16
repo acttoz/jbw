@@ -3,18 +3,17 @@ using System.Collections;
 
 public class Item : MonoBehaviour
 {
-	GameObject bars;
+	public GameObject bars;
+
 	// Use this for initialization
 	void Start ()
 	{
-		bars = GameObject.Find ("bars");
 	}
 	
 	// Update is called once per frame
 	void Update ()
 	{
-		GetComponentInChildren<UILabel> ().text = MGR.tempTexsts [int.Parse (transform.name)];
-	
+		GetComponentInChildren<UILabel> ().text = bars.GetComponent<Bar_set> ().texts [int.Parse (transform.name)];
 	}
 
 	void OnPress (bool pressed)
