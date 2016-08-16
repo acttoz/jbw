@@ -81,7 +81,7 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: coin
-    x: 1284
+    x: 1613
     y: 38
     width: 192
     height: 192
@@ -94,7 +94,7 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: eye
-    x: 1477
+    x: 1806
     y: 25
     width: 108
     height: 107
@@ -106,6 +106,32 @@ MonoBehaviour:
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
+  - name: Fotolia_28307455_XS
+    x: 1284
+    y: 23
+    width: 328
+    height: 207
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 46
+    paddingRight: 44
+    paddingTop: 45
+    paddingBottom: 35
+  - name: Fotolia_47500193_XS
+    x: 3769
+    y: 1576
+    width: 174
+    height: 472
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 34
+    paddingRight: 32
+    paddingTop: 8
+    paddingBottom: 21
   - name: menu
     x: 0
     y: 127
@@ -120,7 +146,7 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: "UI_0000_\uB808\uC774\uC5B4-2"
-    x: 1477
+    x: 1806
     y: 133
     width: 290
     height: 97
@@ -146,7 +172,7 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: "UI_0002_\uBCA1\uD130-\uACE0\uAE09-\uAC1C\uCCB4"
-    x: 1768
+    x: 2097
     y: 59
     width: 108
     height: 171

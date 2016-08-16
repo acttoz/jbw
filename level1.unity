@@ -316,6 +316,11 @@ Prefab:
       propertyPath: bars
       value: 
       objectReference: {fileID: 2053677872}
+    - target: {fileID: 11423656, guid: bde58e54978dcee4b97d8b05581eae21, type: 2}
+      propertyPath: mTrueTypeFont
+      value: 
+      objectReference: {fileID: 12800000, guid: fe45fde628a3c084b931feefbe854204,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bde58e54978dcee4b97d8b05581eae21, type: 2}
   m_IsPrefabParent: 0
@@ -1357,6 +1362,11 @@ Prefab:
       propertyPath: bars
       value: 
       objectReference: {fileID: 526176486}
+    - target: {fileID: 11423656, guid: bde58e54978dcee4b97d8b05581eae21, type: 2}
+      propertyPath: mTrueTypeFont
+      value: 
+      objectReference: {fileID: 12800000, guid: fe45fde628a3c084b931feefbe854204,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bde58e54978dcee4b97d8b05581eae21, type: 2}
   m_IsPrefabParent: 0
@@ -1591,7 +1601,7 @@ MonoBehaviour:
   mTrueTypeFont: {fileID: 12800000, guid: fe45fde628a3c084b931feefbe854204, type: 3}
   mFont: {fileID: 0}
   mText: "\uC815\uB9AC"
-  mFontSize: 956
+  mFontSize: 53
   mFontStyle: 0
   mAlignment: 0
   mEncoding: 1
@@ -2384,7 +2394,7 @@ MonoBehaviour:
   mTrueTypeFont: {fileID: 12800000, guid: fe45fde628a3c084b931feefbe854204, type: 3}
   mFont: {fileID: 0}
   mText: "\uC815\uB9AC"
-  mFontSize: 956
+  mFontSize: 53
   mFontStyle: 0
   mAlignment: 0
   mEncoding: 1
@@ -2473,6 +2483,11 @@ Prefab:
       propertyPath: bars
       value: 
       objectReference: {fileID: 526176486}
+    - target: {fileID: 11423656, guid: bde58e54978dcee4b97d8b05581eae21, type: 2}
+      propertyPath: mTrueTypeFont
+      value: 
+      objectReference: {fileID: 12800000, guid: fe45fde628a3c084b931feefbe854204,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bde58e54978dcee4b97d8b05581eae21, type: 2}
   m_IsPrefabParent: 0
@@ -2818,6 +2833,11 @@ Prefab:
       propertyPath: bars
       value: 
       objectReference: {fileID: 526176486}
+    - target: {fileID: 11423656, guid: bde58e54978dcee4b97d8b05581eae21, type: 2}
+      propertyPath: mTrueTypeFont
+      value: 
+      objectReference: {fileID: 12800000, guid: fe45fde628a3c084b931feefbe854204,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bde58e54978dcee4b97d8b05581eae21, type: 2}
   m_IsPrefabParent: 0
@@ -6076,6 +6096,11 @@ Prefab:
       propertyPath: bars
       value: 
       objectReference: {fileID: 2053677872}
+    - target: {fileID: 11423656, guid: bde58e54978dcee4b97d8b05581eae21, type: 2}
+      propertyPath: mTrueTypeFont
+      value: 
+      objectReference: {fileID: 12800000, guid: fe45fde628a3c084b931feefbe854204,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bde58e54978dcee4b97d8b05581eae21, type: 2}
   m_IsPrefabParent: 0
@@ -6138,6 +6163,11 @@ Prefab:
       propertyPath: bars
       value: 
       objectReference: {fileID: 2053677872}
+    - target: {fileID: 11423656, guid: bde58e54978dcee4b97d8b05581eae21, type: 2}
+      propertyPath: mTrueTypeFont
+      value: 
+      objectReference: {fileID: 12800000, guid: fe45fde628a3c084b931feefbe854204,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bde58e54978dcee4b97d8b05581eae21, type: 2}
   m_IsPrefabParent: 0
@@ -7311,6 +7341,11 @@ Prefab:
       propertyPath: bars
       value: 
       objectReference: {fileID: 2053677872}
+    - target: {fileID: 11423656, guid: bde58e54978dcee4b97d8b05581eae21, type: 2}
+      propertyPath: mTrueTypeFont
+      value: 
+      objectReference: {fileID: 12800000, guid: fe45fde628a3c084b931feefbe854204,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bde58e54978dcee4b97d8b05581eae21, type: 2}
   m_IsPrefabParent: 0
@@ -7454,6 +7489,11 @@ Prefab:
       propertyPath: bars
       value: 
       objectReference: {fileID: 526176486}
+    - target: {fileID: 11423656, guid: bde58e54978dcee4b97d8b05581eae21, type: 2}
+      propertyPath: mTrueTypeFont
+      value: 
+      objectReference: {fileID: 12800000, guid: fe45fde628a3c084b931feefbe854204,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bde58e54978dcee4b97d8b05581eae21, type: 2}
   m_IsPrefabParent: 0
@@ -7825,7 +7865,7 @@ MonoBehaviour:
   keepAspectRatio: 0
   aspectRatio: 3.8125
   keepCrispWhenShrunk: 1
-  mTrueTypeFont: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+  mTrueTypeFont: {fileID: 12800000, guid: fe45fde628a3c084b931feefbe854204, type: 3}
   mFont: {fileID: 0}
   mText: "\uAC1C\uD68C"
   mFontSize: 34
@@ -10165,6 +10205,11 @@ Prefab:
       propertyPath: bars
       value: 
       objectReference: {fileID: 526176486}
+    - target: {fileID: 11423656, guid: bde58e54978dcee4b97d8b05581eae21, type: 2}
+      propertyPath: mTrueTypeFont
+      value: 
+      objectReference: {fileID: 12800000, guid: fe45fde628a3c084b931feefbe854204,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bde58e54978dcee4b97d8b05581eae21, type: 2}
   m_IsPrefabParent: 0
@@ -10641,11 +10686,11 @@ MonoBehaviour:
   disabledSprite2D: {fileID: 0}
   pixelSnap: 0
   onClick:
-  - mTarget: {fileID: 1320017176}
-    mMethodName: controlPanel
+  - mTarget: {fileID: 1320017178}
+    mMethodName: loadScene
     mParameters:
     - obj: {fileID: 1320017179}
-      field: i3
+      field: i0
     oneShot: 0
 --- !u!65 &1712504429
 BoxCollider:
@@ -11057,6 +11102,11 @@ Prefab:
       propertyPath: bars
       value: 
       objectReference: {fileID: 526176486}
+    - target: {fileID: 11423656, guid: bde58e54978dcee4b97d8b05581eae21, type: 2}
+      propertyPath: mTrueTypeFont
+      value: 
+      objectReference: {fileID: 12800000, guid: fe45fde628a3c084b931feefbe854204,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bde58e54978dcee4b97d8b05581eae21, type: 2}
   m_IsPrefabParent: 0
@@ -11133,7 +11183,7 @@ MonoBehaviour:
   mPivot: 4
   mWidth: 1228
   mHeight: 856
-  mDepth: 15
+  mDepth: 22
   autoResizeBoxCollider: 1
   hideIfOffScreen: 0
   keepAspectRatio: 0
@@ -13380,7 +13430,7 @@ MonoBehaviour:
   keepAspectRatio: 0
   aspectRatio: 3.8125
   keepCrispWhenShrunk: 1
-  mTrueTypeFont: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+  mTrueTypeFont: {fileID: 12800000, guid: fe45fde628a3c084b931feefbe854204, type: 3}
   mFont: {fileID: 0}
   mText: "\uC2DC\uC791\uD558\uAE30"
   mFontSize: 34

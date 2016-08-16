@@ -184,6 +184,32 @@ MonoBehaviour:
     paddingRight: 0
     paddingTop: 1
     paddingBottom: 0
+  - name: tri1
+    x: 2994
+    y: 2234
+    width: 188
+    height: 201
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 25
+    paddingRight: 43
+    paddingTop: 30
+    paddingBottom: 25
+  - name: tri2
+    x: 3183
+    y: 2248
+    width: 196
+    height: 187
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 35
+    paddingRight: 25
+    paddingTop: 38
+    paddingBottom: 31
   - name: "\uAD50\uC2E4"
     x: 998
     y: 1098
