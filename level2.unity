@@ -514,8 +514,8 @@ MonoBehaviour:
   rightType: 1
   bottomType: 1
   topType: 1
-  mAtlas: {fileID: 11418700, guid: 4edede3548171454b84a0e6e635a8c8f, type: 2}
-  mSpriteName: "\uAD50\uC2E4"
+  mAtlas: {fileID: 11484804, guid: 114dafb1223400e48b55badff9458436, type: 2}
+  mSpriteName: "\uBC18\uBCF5"
   mFillCenter: 1
 --- !u!1 &143502360
 GameObject:
@@ -833,7 +833,7 @@ MonoBehaviour:
   anchorOffset: 0
   softBorderPadding: 1
   renderQueue: 0
-  startingRenderQueue: 3005
+  startingRenderQueue: 3006
   mClipTexture: {fileID: 0}
   mAlpha: 1
   mClipping: 0
@@ -8551,7 +8551,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1321080007}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 45, y: 287, z: 0}
+  m_LocalPosition: {x: 28, y: 288, z: 0}
   m_LocalScale: {x: 0.74287933, y: 0.74287933, z: 0.74287933}
   m_Children: []
   m_Father: {fileID: 157084319}
@@ -8586,22 +8586,21 @@ MonoBehaviour:
   updateAnchors: 1
   mColor: {r: 0.31617647, g: 0.31617647, b: 0.31617647, a: 1}
   mPivot: 4
-  mWidth: 1308
-  mHeight: 178
+  mWidth: 1454
+  mHeight: 176
   mDepth: 8
   autoResizeBoxCollider: 0
   hideIfOffScreen: 0
   keepAspectRatio: 0
-  aspectRatio: 7.348315
+  aspectRatio: 8.261364
   keepCrispWhenShrunk: 1
   mTrueTypeFont: {fileID: 12800000, guid: fe45fde628a3c084b931feefbe854204, type: 3}
   mFont: {fileID: 0}
-  mText: "\u25B6\uC74C\uC545\uC2DC\uAC04\uC5D0 \uC54C\uACE0\uB9AC\uBD07\uC740 \uC790\uC7A5\uAC00
-    \uB178\uB798\uB97C \uBC30\uC6B0\uAC8C \uB418\uC5C8\uC2B5\uB2C8\uB2E4.  \uB3C4\uB3CC\uC774\uD45C\uAC00
-    \uC788\uB294 \uB178\uB798\uC5D0 \uC54C\uACE0\uB9AC\uBD07\uC740 \uC5B4\uC9C0\uB7EC\uC6C0\uC744
-    \uB290\uB07C\uAC8C \uB429\uB2C8\uB2E4. \uC54C\uACE0\uB9AC\uBD07\uC774 \uBB34\uC0AC\uD788
-    \uC790\uC7A5\uAC00 \uB178\uB798\uB97C \uBD80\uB97C \uC218 \uC788\uB3C4\uB85D \uC54C\uD30C\uCD08
-    \uC5EC\uB7EC\uBD84\uC774 \uB3C4\uC640\uC90D\uC2DC\uB2E4."
+  mText: "\u25B6\uCCB4\uC721\uC2DC\uAC04\uC5D0 \uC54C\uACE0\uB9AC\uBD07\uC740 \uAC74\uAC15\uCCB4\uB825\uAE30\uB974\uAE30\uC758
+    \uC218\uD589\uD3C9\uAC00\uB85C \uC717\uBAB8 \uB9D0\uC544 \uC62C\uB9AC\uAE30\uB97C
+    \uCE21\uC815\uC744 \uD558\uAC8C \uB418\uC5C8\uC2B5\uB2C8\uB2E4. \uC54C\uACE0\uB9AC\uBD07\uC774
+    \uC717\uBAB8 \uB9D0\uC544 \uC62C\uB9AC\uAE30\uB97C \uD560 \uC218 \uC788\uB3C4\uB85D
+    \uB3C4\uC640 \uC90D\uC2DC\uB2E4."
   mFontSize: 65
   mFontStyle: 0
   mAlignment: 1
@@ -10281,13 +10280,9 @@ MonoBehaviour:
   keepCrispWhenShrunk: 1
   mTrueTypeFont: {fileID: 12800000, guid: fe45fde628a3c084b931feefbe854204, type: 3}
   mFont: {fileID: 0}
-  mText: "\u25B6\uB3C4\uB3CC\uC774\uD45C\uAC00\_\uC788\uB294\_\uB178\uB798\uCC98\uB7FC\_\uB3D9\uC77C\uD55C\_\uBD80\uBD84\uC744\_\uC5EC\uB7EC
-    \uBC88\_\uBD80\uB974\uB294\_\uAC83\uC740\_\uBC18\uBCF5\uC54C\uACE0\uB9AC\uC998
-    \uC785\uB2C8\uB2E4.\_\r\n\r\n\u25B6\uAC19\uC740\_\uC218\uB97C\_\uACC4\uC18D\_\uB354\uD558\uB294\_\uB300\uC2E0\_\uACF1\uC148\uC758
-    \uD65C\uC6A9,\_\uAC74\uAC15 \uCCB4\uB825\uC744\_\uAE30\uB974\uAE30 \uC704\uD574\_\uC717\uBAB8
-    \uB9D0\uC544 \uC62C\uB9AC\uAE30,\_\uD314 \uAD7D\uD600 \uD3B4\uAE30 \uB4F1\_\uB3D9\uC77C\uD55C\_\uB3D9\uC791\uC744\_\uC5EC\uB7EC
-    \uBC88\_\r\n\uBC18\uBCF5\uD558\uB294\_\uAC83\uB3C4\_\uBC18\uBCF5\uC54C\uACE0\uB9AC\uC998
-    \uC785\uB2C8\uB2E4.\_\r\n\r\n\u25B6\uC2E4\uC0DD\uD65C\_\uC18D\uC5D0\uB294\_\uC5B4\uB5A4\_\uBC18\uBCF5\uC54C\uACE0\uB9AC\uC998\uC774\_\uC788\uC744\uC9C0\_\uC870\uC0AC\uD574\_\uBD05\uC2DC\uB2E4.\r"
+  mText: "\u25B6\uC717\uBAB8\_\uB9D0\uC544\_\uC62C\uB9AC\uAE30\uCC98\uB7FC\_\uB3D9\uC77C\uD55C\_\uB3D9\uC791\uC744\_\uC5EC\uB7EC
+    \uBC88\_\uD558\uB294\_\uAC83\uC740\_\uBC18\uBCF5\_\uC54C\uACE0\uB9AC\uC998\uC785\uB2C8\uB2E4.\r\n\r\n\u25B6
+    \uD314\uAD7D\uD600\uD3B4\uAE30,\_\uD314\uBC8C\uB824\uB6F0\uAE30\uB3C4\uB3CC\uC774\uD45C\uAC00\_\uC788\uB294\_\uB178\uB798\uD558\uAE30,\_\uAC19\uC740\_\uC218\uB97C\_\uACC4\uC18D\_\uB354\uD558\uB294\_\uB300\uC2E0\_\uACF1\uC148\uC744\_\uD65C\uC6A9\uD558\uB294\_\uAC83\uB3C4\_\uBC18\uBCF5\uC54C\uACE0\uB9AC\uC998\uC758\_\uC0AC\uC6A9\uC785\uB2C8\uB2E4.\r\n\r\n\u25B6\uC2E4\uC0DD\uD65C\_\uC18D\uC5D0\uB294\_\uC5B4\uB5A4\_\uBC18\uBCF5\uC54C\uACE0\uB9AC\uC998\uC774\_\uC788\uC744\uC9C0\_\uC870\uC0AC\uD574\_\uBD05\uC2DC\uB2E4.\r"
   mFontSize: 45
   mFontStyle: 0
   mAlignment: 1

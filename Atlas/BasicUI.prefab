@@ -41,9 +41,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   material: {fileID: 2100000, guid: 00c85a4393bf23c42b3f3f37c1435f7b, type: 2}
   mSprites:
+  - name: 3242
+    x: 0
+    y: 1030
+    width: 1352
+    height: 1018
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
   - name: aa
-    x: 996
-    y: 33
+    x: 3807
+    y: 1098
     width: 285
     height: 93
     borderLeft: 0
@@ -55,7 +68,7 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: bar (2)
-    x: 355
+    x: 2254
     y: 7
     width: 324
     height: 119
@@ -68,7 +81,7 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: beam
-    x: 3563
+    x: 3863
     y: 1248
     width: 205
     height: 800
@@ -81,8 +94,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: coin
-    x: 1613
-    y: 38
+    x: 2977
+    y: 1
     width: 192
     height: 192
     borderLeft: 0
@@ -94,8 +107,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: eye
-    x: 1806
-    y: 25
+    x: 3807
+    y: 990
     width: 108
     height: 107
     borderLeft: 0
@@ -106,9 +119,22 @@ MonoBehaviour:
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
+  - name: ffsd
+    x: 2634
+    y: 56
+    width: 342
+    height: 137
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
   - name: Fotolia_28307455_XS
-    x: 1284
-    y: 23
+    x: 3632
+    y: 511
     width: 328
     height: 207
     borderLeft: 0
@@ -120,8 +146,8 @@ MonoBehaviour:
     paddingTop: 45
     paddingBottom: 35
   - name: Fotolia_47500193_XS
-    x: 3769
-    y: 1576
+    x: 3632
+    y: 719
     width: 174
     height: 472
     borderLeft: 0
@@ -133,8 +159,8 @@ MonoBehaviour:
     paddingTop: 8
     paddingBottom: 21
   - name: menu
-    x: 0
-    y: 127
+    x: 1353
+    y: 1088
     width: 1280
     height: 960
     borderLeft: 0
@@ -146,8 +172,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: "UI_0000_\uB808\uC774\uC5B4-2"
-    x: 1806
-    y: 133
+    x: 3632
+    y: 413
     width: 290
     height: 97
     borderLeft: 0
@@ -159,8 +185,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: "UI_0001_\uBCA1\uD130-\uACE0\uAE09-\uAC1C\uCCB4"
-    x: 680
-    y: 17
+    x: 3170
+    y: 84
     width: 315
     height: 109
     borderLeft: 0
@@ -172,8 +198,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: "UI_0002_\uBCA1\uD130-\uACE0\uAE09-\uAC1C\uCCB4"
-    x: 2097
-    y: 59
+    x: 3486
+    y: 22
     width: 108
     height: 171
     borderLeft: 0
@@ -185,8 +211,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: "UI_0003_\uBCA1\uD130-\uACE0\uAE09-\uAC1C\uCCB4"
-    x: 1284
-    y: 231
+    x: 2634
+    y: 1192
     width: 1228
     height: 856
     borderLeft: 0
@@ -199,7 +225,7 @@ MonoBehaviour:
     paddingBottom: 0
   - name: "UI_0004_\uBCA1\uD130-\uACE0\uAE09-\uAC1C\uCCB4"
     x: 0
-    y: 1088
+    y: 69
     width: 1283
     height: 960
     borderLeft: 0
@@ -211,8 +237,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: UI_0005_menu
-    x: 1284
-    y: 1088
+    x: 1353
+    y: 127
     width: 1280
     height: 960
     borderLeft: 0
@@ -223,9 +249,22 @@ MonoBehaviour:
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
+  - name: "\uB808\uC774\uC5B4 3 \uBCF5\uC0AC"
+    x: 1353
+    y: 34
+    width: 545
+    height: 92
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
   - name: "\uC695\uC2E4"
-    x: 2565
-    y: 1051
+    x: 2634
+    y: 194
     width: 997
     height: 997
     borderLeft: 0
@@ -237,7 +276,7 @@ MonoBehaviour:
     paddingTop: 3
     paddingBottom: 3
   - name: "\uC81C\uBAA9-\uC5C6\uC74C-3"
-    x: 0
+    x: 1899
     y: 3
     width: 354
     height: 123
