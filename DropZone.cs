@@ -49,7 +49,9 @@ public class DropZone : MonoBehaviour
 
 			mMGR.GetComponent<MGR> ().Ins (Effect, 0, this.transform.position);
 		} else {
-			iTween.PunchPosition (dropped, new Vector3 (0.2f, 0.2f, 0), 1f);
+			
+			iTween.PunchScale (dropped, new Vector3 (0.2f, 0.2f, 0), 1f);
+			iTween.MoveAdd (dropped, new Vector3 (-0.7f, 0, 0), 1f);
 		}
 		// 드롭된 게임오브젝트는 삭제한다.
 	}

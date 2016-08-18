@@ -47,7 +47,7 @@ public class MGR : MonoBehaviour
 	void Update ()
 	{
 		if (Input.GetKey (KeyCode.Escape)) {
-			SceneManager.LoadSceneAsync (0);
+			SceneManager.LoadScene (0);
 		}
 
 		if (STATE == PLAYING) {
